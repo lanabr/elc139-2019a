@@ -1,0 +1,5 @@
+Especificações do computador:
+
+Procesador: Intel i5 7300HQ
+Memória: 8GB
+Sistema Operacional: Windows 10 
