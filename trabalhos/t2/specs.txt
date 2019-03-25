@@ -4,4 +4,4 @@ Procesador: Intel i5 7300HQ
 Núcleos: 4
 Frequência: 2.5GHz
 Memória: 8GB
-Sistema Operacional: Windows 10 
+Sistema Operacional: Windows 10 (usando Cygwin como ajudante)
