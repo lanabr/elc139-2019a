@@ -1,7 +1,7 @@
 Especificações do computador:
 
 Procesador: Intel i5 7300HQ
-Núcles: 4
+Núcleos: 4
 Frequência: 2.5GHz
 Memória: 8GB
 Sistema Operacional: Windows 10 
