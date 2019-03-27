@@ -66,25 +66,28 @@ Gerando um speedup de 1.890956.
 A tabela com a média, máximo e mínimo estão no arquivo [tabelaminmax.png](tabelaminmax.PNG). Sendo assim, as acelerações são as das tabelas abaixo.
 
 Vetor de tamanho 1000000:
+
 Repetições | Aceleração com 2 threads | Aceleração com 4 threads
 -----------|--------------------------|--------------------------
-1000       |   	1,961601253	        |      3,090268424
-2000	     |      1,963328724         |   	3,126926788
-3000       |     	2,007918135	        |      3,242751746
+ 1000      |   	1,961601253	        |      3,090268424
+ 2000	     |      1,963328724         |   	3,126926788
+ 3000      |     	2,007918135	        |      3,242751746
 
 Vetor de tamanho 200000:
+
 Repetições | Aceleração com 2 threads | Aceleração com 4 threads
 -----------|--------------------------|--------------------------
-1000       |    	1,955362062         |     2,941302023
-2000	     |      1,993677599         |  	  3,069364665
-3000	     |      2,003190535         |  	  3,149469522
+ 1000      |    	1,955362062         |     2,941302023
+ 2000	     |      1,993677599         |  	  3,069364665
+ 3000	     |      2,003190535         |  	  3,149469522
 
 Vetor com tamanho 2000000:  
+
 Repetições | Aceleração com 2 threads | Aceleração com 4 threads
 -----------|--------------------------|--------------------------
-1000	     |      1,984377142	        |     3,08909785
-2000	     |      1,945395109	        |     3,160316252
-3000	     |      1,949555976	        |     3,128649539
+ 1000	     |      1,984377142	        |     3,08909785
+ 2000	     |      1,945395109	        |     3,160316252
+ 3000	     |      1,949555976	        |     3,128649539
 
 Com base nas tabelas, é possível ver que a aceleração aumenta conforme o número de threads, mas a diferença não é muito grande. Porém , quanto maior é o vetor, menor é a aceleração, não importando o número de threads. 
 
