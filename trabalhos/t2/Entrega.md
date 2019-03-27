@@ -91,7 +91,8 @@ Na tabela com os valores médios, é possível ver um aumento da aceleração de
 
 4. Elabore um gráfico/tabela de aceleração a partir dos dados obtidos no exercício anterior.
 
-
+![grafico1](grafico1.png)
+![grafico2](grafico2.png)
 
 5. Explique as diferenças entre pthreads_dotprod.c e pthreads_dotprod2.c. Com as linhas removidas, o programa está correto?
 
