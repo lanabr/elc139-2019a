@@ -92,7 +92,7 @@ Com base nas tabelas, é possível ver que a aceleração aumenta conforme o nú
 
 ![grafico1](grafico1.png)
 ![grafico2](grafico2.png)
-![grafico3](grafic35.png)
+![grafico3](grafico3.png)
 ![grafico4](grafico4.png)
 ![grafico5](grafico5.png)
 
