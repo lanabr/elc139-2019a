@@ -65,9 +65,9 @@ Gerando um speedup de 1.890956.
 
 A tabela com a média, máximo e mínimo estão no arquivo [tabelaminmax.png](tabelaminmax.PNG). Sendo assim, as acelerações são as das tabelas abaixo.
 
-Tamanho do vetor com 1 thread = 1 milhão, 2 threads = 500 mil, 4 threads = 250 mil. (3000 repet.)
-Tamanho do vetor com 1 thread = 200 mil, 2 threads = 100 mil, 4 threads = 50 mil. (2000 repet.)
-Tamanho do vetor com 1 thread = 2 milhões, 2 threads = 1 milhão, 4 threads = 500 mil. (1000 repet.)
+Tamanho do vetor com 1 thread = 1 milhão, 2 threads = 500 mil, 4 threads = 250 mil. (3000 repet.)  
+Tamanho do vetor com 1 thread = 200 mil, 2 threads = 100 mil, 4 threads = 50 mil. (2000 repet.)  
+Tamanho do vetor com 1 thread = 2 milhões, 2 threads = 1 milhão, 4 threads = 500 mil. (1000 repet.)  
 
 Repetições | Aceleração média com 2 threads | Aceleração média com 4 threads
 -----------|--------------------------------|-------------------------------
@@ -95,6 +95,7 @@ Na tabela com os valores médios, é possível ver um aumento da aceleração de
 ![grafico2](grafico2.png)
 
 5. Explique as diferenças entre pthreads_dotprod.c e pthreads_dotprod2.c. Com as linhas removidas, o programa está correto?
+
 A diferença está no uso do mutex, que garante a exclusão mutua, e é usado em pthreads_dotprod.c, mas não é usado em pthreads_dotprod2.c. Apesar de em alguns testes dar o mesmo resultado, o programa não está certo, pois duas threads podem ler/escrever a variável ao mesmo tempo, gerando inconsistência.
 
 ### OpenMP
