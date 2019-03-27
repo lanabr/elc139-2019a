@@ -99,6 +99,9 @@ Na tabela com os valores médios, é possível ver um aumento da aceleração de
 A diferença está no uso do mutex, que garante a exclusão mutua, e é usado em pthreads_dotprod.c, mas não é usado em pthreads_dotprod2.c. Apesar de em alguns testes dar o mesmo resultado, o programa não está certo, pois duas threads podem ler/escrever a variável ao mesmo tempo, gerando inconsistência.
 
 ### OpenMP
+1. Implemente um programa equivalente a pthreads_dotprod.c usando OpenMP.
+
+2. Avalie o desempenho do programa em OpenMP, usando os mesmos dados/argumentos do programa com threads POSIX.
 
 ### Referências
 Projeto de programas paralelos. https://github.com/AndreaInfUFSM/elc139-2019a/tree/master/slides
