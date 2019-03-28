@@ -63,12 +63,12 @@ Gerando um speedup de 1.890956.
 
 3. A aceleração se sustenta para outros tamanhos de vetores, números de threads e repetições? Para responder a essa questão, você terá que realizar diversas execuções, variando o tamanho do problema (tamanho dos vetores e número de repetições) e o número de threads (1, 2, 4, 8..., dependendo do número de núcleos). Cada caso deve ser executado várias vezes, para depois calcular-se um tempo de processamento médio para cada caso. Atenção aos fatores que podem interferir na confiabilidade da medição: uso compartilhado do computador, tempos muito pequenos, etc.
 
-A tabela com a média, máximo e mínimo estão no arquivo [tabelaminmax.png](tabelaminmax.PNG). Sendo assim, as acelerações são as das tabelas abaixo.
+A tabela com a média, máximo e mínimo estão no arquivo [tabelaminmax.png](pthreads_dotprod/tabelaminmax.PNG). Sendo assim, as acelerações são as das tabelas abaixo.
 
 Vetor de tamanho 1000000:
 
 Repetições | Aceleração com 2 threads | Aceleração com 4 threads
------------|--------------------------|--------------------------
+:---------:|:------------------------:|:------------------------:
  1000      |   	1,961601253	        |      3,090268424
  2000	     |      1,963328724         |   	3,126926788
  3000      |     	2,007918135	        |      3,242751746
@@ -76,7 +76,7 @@ Repetições | Aceleração com 2 threads | Aceleração com 4 threads
 Vetor de tamanho 200000:
 
 Repetições | Aceleração com 2 threads | Aceleração com 4 threads
------------|--------------------------|--------------------------
+:---------:|:------------------------:|:------------------------:
  1000      |    	1,955362062         |     2,941302023
  2000	     |      1,993677599         |  	  3,069364665
  3000	     |      2,003190535         |  	  3,149469522
@@ -84,7 +84,7 @@ Repetições | Aceleração com 2 threads | Aceleração com 4 threads
 Vetor com tamanho 2000000:  
 
 Repetições | Aceleração com 2 threads | Aceleração com 4 threads
------------|--------------------------|--------------------------
+:---------:|:------------------------:|:------------------------:
  1000	     |      1,984377142	        |     3,08909785
  2000	     |      1,945395109	        |     3,160316252
  3000	     |      1,949555976	        |     3,128649539
@@ -93,11 +93,11 @@ Com base nas tabelas, é possível ver que a aceleração aumenta conforme o nú
 
 4. Elabore um gráfico/tabela de aceleração a partir dos dados obtidos no exercício anterior.
 
-![grafico1](grafico1.png)
-![grafico2](grafico2.png)
-![grafico3](grafico3.png)
-![grafico4](grafico4.png)
-![grafico5](grafico5.png)
+![grafico1](pthreads_dotprod/grafico1.png)
+![grafico2](pthreads_dotprod/grafico2.png)
+![grafico3](pthreads_dotprod/grafico3.png)
+![grafico4](pthreads_dotprod/grafico4.png)
+![grafico5](pthreads_dotprod/grafico5.png)
 
 5. Explique as diferenças entre pthreads_dotprod.c e pthreads_dotprod2.c. Com as linhas removidas, o programa está correto?
 
@@ -109,6 +109,37 @@ A diferença está no uso do mutex, que garante a exclusão mutua, e é usado em
 Código completo em [ompsimple.c](openmp/ompsimple.c)
 
 2. Avalie o desempenho do programa em OpenMP, usando os mesmos dados/argumentos do programa com threads POSIX.
+
+Vetor de tamanho 1000000:
+
+Repetições | Aceleração com 2 threads | Aceleração com 4 threads
+:---------:|:------------------------:|:------------------------:
+ 1000      |   	1,864900613	        |       3,283996538
+ 2000	     |      1,859747117	        |       3,293511366
+ 3000      |     	1,873041226	        |       3,291534563
+
+Vetor de tamanho 200000:
+
+Repetições | Aceleração com 2 threads | Aceleração com 4 threads
+:---------:|:------------------------:|:------------------------:
+ 1000      |      1,739789403	        |       2,818997858
+ 2000	     |      1,738396228	        |       2,891903933
+ 3000	     |      1,770672136	        |       2,967619283
+
+Vetor com tamanho 2000000:  
+
+Repetições | Aceleração com 2 threads | Aceleração com 4 threads
+:---------:|:------------------------:|:------------------------:
+ 1000	     |      1,890738521	        |       3,015891871
+ 2000	     |      1,875073789	        |       3,018205757
+ 3000	     |      1,882233108	        |       3,036273273
+
+![grafico6](openmp/grafico6.png)
+![grafico7](openmp/grafico7.png)
+![grafico8](openmp/grafico8.png)
+![grafico9](openmp/grafico9.png)
+![grafico10](openmp/grafico10.png)
+![grafico11](openmp/grafico11.png)
 
 ### Referências
 Projeto de programas paralelos. https://github.com/AndreaInfUFSM/elc139-2019a/tree/master/slides
