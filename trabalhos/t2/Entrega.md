@@ -141,5 +141,8 @@ Repetições | Aceleração com 2 threads | Aceleração com 4 threads
 ![grafico10](openmp/grafico10.png)
 ![grafico11](openmp/grafico11.png)
 
+No geral, os valores de aceleração da execução com OpenMP foram melhores do que com Pthreads, ficando quase sempre na mesma proporção.
+
 ### Referências
-Projeto de programas paralelos. https://github.com/AndreaInfUFSM/elc139-2019a/tree/master/slides
+Projeto de programas paralelos. https://github.com/AndreaInfUFSM/elc139-2019a/tree/master/slides  
+Introdução ao OpenMP. https://www.dcc.fc.up.pt/~fds/aulas/PPD/0708/intro_openmp-1x2.pdf
