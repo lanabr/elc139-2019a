@@ -106,6 +106,8 @@ A diferença está no uso do mutex, que garante a exclusão mutua, e é usado em
 ### OpenMP
 1. Implemente um programa equivalente a pthreads_dotprod.c usando OpenMP.
 
+Código completo em [ompsimple.c](openmp/ompsimple.c)
+
 2. Avalie o desempenho do programa em OpenMP, usando os mesmos dados/argumentos do programa com threads POSIX.
 
 ### Referências
