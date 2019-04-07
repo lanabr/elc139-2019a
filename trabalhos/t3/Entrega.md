@@ -72,5 +72,5 @@ Os chunks são agrupamentos distribuídos entre as threads. Se o schedule for dy
 Foram executados também dois casos sem exclusão mútua e com ou sem definição de schedule.
 
 ### Referências
-- OpenMP: For &Scheduling. http://jakascorner.com/blog/2016/06/omp-for-scheduling.html
-- Loop Scheduling in OpenMp. https://www.openmp.org/wp-content/uploads/SC17-Kale-LoopSchedforOMP_BoothTalk.pdf
+- OpenMP: For & Scheduling. http://jakascorner.com/blog/2016/06/omp-for-scheduling.html
+- Loop Scheduling in OpenMP. https://www.openmp.org/wp-content/uploads/SC17-Kale-LoopSchedforOMP_BoothTalk.pdf
