@@ -7,4 +7,8 @@ Os códigos modificados podem ser vistos em [fractalpar1.cpp](fractalpar1.cpp) e
 
 Os gifs podem ser vistos na pasta [gifs](gifs).
 
-### Casos de teste
+Os slides podem ser vistos em .
+
+### Referências
+
+ImageMagick. https://imagemagick.org/script/magick.php
