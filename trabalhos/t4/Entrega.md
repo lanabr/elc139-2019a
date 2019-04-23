@@ -7,7 +7,7 @@ Os códigos modificados podem ser vistos em [fractalpar1.cpp](fractalpar1.cpp) e
 
 Os gifs podem ser vistos na pasta [gifs](gifs).
 
-Os slides podem ser vistos em .
+Os slides podem ser vistos em [slides.pdf](slides.pdf).
 
 ### Referências
 
