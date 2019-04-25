@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 
   // compute frames
   double delta;
-  #pragma omp parallel for schedule(static) num_threads(threads) private(frame)
+  #pragma omp parallel for schedule(static) num_threads(threads)
   for (int frame = 0; frame < frames; frame++) {
     delta = Delta * pow(0.98, frame);
     const double xMin = xMid - delta;
