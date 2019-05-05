@@ -4,6 +4,7 @@ Disciplina: Programação Paralela
 Nome: Lana Rossato  
 
 ### Parte 1
+Código em [dotprod_mpi.c](dotprod_mpi.c)
 
 ### Parte 2
 
