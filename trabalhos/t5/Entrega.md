@@ -4,9 +4,10 @@ Disciplina: Programação Paralela
 Nome: Lana Rossato  
 
 ### Parte 1
-Código em [dotprod_mpi.c](dotprod_mpi.c)
+Código em [dotprod_mpi.c](dotprod_mpi.c).
 
 ### Parte 2
+Código em [pipeline.c](pipeline.c).
 
 ### Parte 3
 Para o programa [mpi_errado1.c](mpi_errado1.c), o programa corrigido é [mpi_errado1.c](mpi_corrigido1.c).  
