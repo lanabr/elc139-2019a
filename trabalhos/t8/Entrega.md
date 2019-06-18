@@ -28,8 +28,3 @@ Médias de tempo para o programa wavecuda1.c:
 
 Gráfico do speedup:  
 <img src = speedup1.png>
-
-### Parte 2
-
-### Referências
-- 
